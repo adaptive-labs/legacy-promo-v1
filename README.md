@@ -1,35 +1,21 @@
-# 🚀 Project Aurora
+---
+category: architecture
+title: Legacy Promo V1 — Architecture
+description: Retired V1 promotions engine. Superseded by promo-engine.
+related_teams:
+  - checkout
+---
 
-A lightweight, modular, and developer-friendly toolkit for building
-scalable applications with ease.
+# Legacy Promo V1
 
-## 📌 Overview
+Retired V1 promotions engine. Superseded by promo-engine.
 
-Project Aurora is an open-source framework designed to help developers
-rapidly prototype, build, and deploy modern applications.
+## Overview
 
-## ✨ Features
+`legacy-promo-v1` is a service owned by the Checkout team. It runs in production as a tier-low service.
 
--   Fast and lightweight
--   Plugin-based system
--   Secure by default
--   Highly customizable
--   Integrated monitoring
+## Dependencies
 
-## 🛠️ Installation
+No upstream service dependencies of note.
 
-``` bash
-git clone https://github.com/your-username/project-aurora.git
-cd project-aurora
-npm install
-```
-
-## ▶️ Usage
-
-``` bash
-npm run dev
-```
-
-## 📄 License
-
-MIT License
+> **Deprecated.** This service is retired and kept only for reference.

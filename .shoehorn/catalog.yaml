@@ -1,0 +1,19 @@
+schemaVersion: 1
+service:
+  id: legacy-promo-v1
+  name: Legacy Promo V1
+  type: service
+  tier: low
+  description: Retired V1 promotions engine. Superseded by promo-engine.
+lifecycle: deprecated
+tags:
+- adaptive-labs
+- checkout
+owner:
+- type: team
+  id: checkout
+links:
+- name: Runbook
+  url: ./docs/runbook.md
+- name: Onboarding
+  url: ./docs/onboarding.md
